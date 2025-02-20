@@ -1,5 +1,5 @@
 
-function concluirTarefa(props) {
+function concluirTarefa() {
 
     const [concluirTarefa, setConcluir] = useState("Concluir")
   
