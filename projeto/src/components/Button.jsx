@@ -16,4 +16,6 @@ function concluirTarefa() {
       )
   }
 
-  export default botao
+  export default concluirTarefa
+
+  /*EU QUE COMO O FELIPE !!!*/
