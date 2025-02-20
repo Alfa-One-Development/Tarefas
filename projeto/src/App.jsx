@@ -1,4 +1,5 @@
 import "./App.css";
+import ListaTarefas from "./components/ListaTarefas";
 import Header from "./components/Header";
 import Pe from "./components/Footer";
 
@@ -10,7 +11,7 @@ function App() {
           <Header />
         </header>
         <section>
-          
+          <ListaTarefas/>
         </section>
         <footer>
           <Pe />
