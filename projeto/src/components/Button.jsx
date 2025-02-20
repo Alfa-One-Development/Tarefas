@@ -1,4 +1,3 @@
-
 function concluirTarefa() {
 
     const [concluirTarefa, setConcluir] = useState("Concluir")
@@ -16,6 +15,4 @@ function concluirTarefa() {
       )
   }
 
-  export default concluirTarefa
-
-  /*EU QUE COMO O FELIPE !!!*/
+  export default concluirTarefa;
