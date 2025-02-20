@@ -1,13 +1,11 @@
 import Button from './Button';
 function tarefa(props){
+    
 return(
-<div c>
-<h2>{props.text}</h2>
-</div>
-    <Button/>
-
+<article>
+<h1>{props.text}</h1>
+</article>
 )
-
 }
-
+<Button/>
 export default tarefa;
