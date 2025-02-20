@@ -1,0 +1,8 @@
+Lista{
+    background-color: rgb(97, 94, 94);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
