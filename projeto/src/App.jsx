@@ -1,12 +1,23 @@
-import './App.css'
-import Botao from "./Botao.jsx"
+import "./App.css";
+import Header from "./components/Header";
+import Pe from "./components/Footer";
 
 function App() {
-
   return (
     <>
+      <body>
+        <header>
+          <Header />
+        </header>
+        <section>
+          
+        </section>
+        <footer>
+          <Pe />
+        </footer>
+      </body>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
