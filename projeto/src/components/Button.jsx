@@ -1,5 +1,5 @@
 
-function Perfill(props) {
+function concluirTarefa(props) {
 
     const [concluirTarefa, setConcluir] = useState("Concluir")
   
@@ -12,9 +12,8 @@ function Perfill(props) {
       return (
             <article>
               <h1>{props.nome}</h1>
-              <img src={props.img} alt="Foto de Perfil" />
               <p>{props.descrição}</p>
-              <button onClick={concluirTarefa} className={seguir}>{seguir}</button>
+              <button onClick={concluirTarefa} className={Concluir}>{Concluir}</button>
             </article>
       )
   }
