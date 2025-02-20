@@ -22,7 +22,6 @@ function ListaTarefas(){
             <Tarefas
             tarefa = "Fazer a atividade 'Lista De Tarefas'"
             />
-
         </div>
         </>
     )

@@ -1,18 +1,22 @@
-function concluirTarefa() {
+import "./styles/Button.css";
+import { useState } from "react";
 
-    const [concluirTarefa, setConcluir] = useState("Concluir")
-  
-  function concluirTarefa(){
-    if (seguir == "Concluir"){
-    setSeguir("Concluido")
-    } 
-  }
-  
-      return (
-            <article>
-              <button onClick={concluirTarefa} className={Concluir}>{Concluir}</button>
-            </article>
-      )
+function Botao() {
+  const [concluirTarefa, setConcluir] = useState("Concluir");
+
+  function tarefaFeita() {
+    if (concluirTarefa == "Concluir") {
+      setConcluir(concluirTarefa => concluirTarefa == "Concluido")
+    }
   }
 
-  export default concluirTarefa;
+  return (
+    <article className="articleButton">
+      <button onClick={tarefaFeita} className={concluirTarefa}>
+        {concluirTarefa}
+      </button>
+    </article>
+  );
+}
+
+export default Botao;

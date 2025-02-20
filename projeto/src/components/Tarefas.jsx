@@ -1,11 +1,11 @@
-import Button from './Button';
-function tarefa(props){
+import Botao from './Button';
+function Tarefas(props){
     
 return(
 <article>
 <h1>{props.tarefa}</h1>
+<Botao/>
 </article>
 )
 }
-<Button/>
-export default tarefa;
+export default Tarefas;
