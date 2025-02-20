@@ -11,8 +11,6 @@ function concluirTarefa(props) {
   
       return (
             <article>
-              <h1>{props.nome}</h1>
-              <p>{props.descrição}</p>
               <button onClick={concluirTarefa} className={Concluir}>{Concluir}</button>
             </article>
       )
