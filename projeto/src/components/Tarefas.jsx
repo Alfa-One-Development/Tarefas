@@ -3,7 +3,7 @@ function tarefa(props){
     
 return(
 <article>
-<h1>{props.text}</h1>
+<h1>{props.tarefa}</h1>
 </article>
 )
 }
