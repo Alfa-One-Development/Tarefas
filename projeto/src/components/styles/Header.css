@@ -1,4 +1,6 @@
  .cabeca{
+    display: flex;
+    flex-direction: row;
     background-color: #1d1d26;
     color: azure;
     border: solid plum;
